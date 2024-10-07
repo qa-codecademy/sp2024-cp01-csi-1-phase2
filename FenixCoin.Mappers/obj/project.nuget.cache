@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "7PfDWRbCUiM=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Mappers\\FenixCoin.Mappers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\PsyMaki\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
+    "C:\\Users\\PsyMaki\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\PsyMaki\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\PsyMaki\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\PsyMaki\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

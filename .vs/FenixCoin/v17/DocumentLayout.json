@@ -1,0 +1,868 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.shared\\cryptoexceptions\\cryptonotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|solutionrelative:fenixcoin.shared\\cryptoexceptions\\cryptonotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.services\\implementation\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|solutionrelative:fenixcoin.services\\implementation\\walletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.services\\implementation\\tradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|solutionrelative:fenixcoin.services\\implementation\\tradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6140EF-B8EB-4FB5-B121-D08F557826D0}|FenixCoin.App\\FenixCoin.App.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.app\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6140EF-B8EB-4FB5-B121-D08F557826D0}|FenixCoin.App\\FenixCoin.App.csproj|solutionrelative:fenixcoin.app\\controllers\\cryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.services\\interfaces\\icryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|solutionrelative:fenixcoin.services\\interfaces\\icryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.services\\implementation\\cryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|solutionrelative:fenixcoin.services\\implementation\\cryptoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|solutionrelative:fenixcoin.services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.services\\interfaces\\itradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|solutionrelative:fenixcoin.services\\interfaces\\itradeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.services\\interfaces\\iwalletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|solutionrelative:fenixcoin.services\\interfaces\\iwalletservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{89BD14AD-0247-4AEF-BDCF-2CE2CE0B187A}|FenixCoin.Mappers\\FenixCoin.Mappers.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.mappers\\fenixmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{89BD14AD-0247-4AEF-BDCF-2CE2CE0B187A}|FenixCoin.Mappers\\FenixCoin.Mappers.csproj|solutionrelative:fenixcoin.mappers\\fenixmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1E6D5275-9B57-439C-8179-0AEE80D1FFC6}|FenixCoin.Services\\FenixCoin.Services.csproj|solutionrelative:fenixcoin.services\\implementation\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.shared\\ourresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|solutionrelative:fenixcoin.shared\\ourresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.shared\\tradeexceptions\\tradenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|solutionrelative:fenixcoin.shared\\tradeexceptions\\tradenotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.shared\\walletexceptions\\walletnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|solutionrelative:fenixcoin.shared\\walletexceptions\\walletnotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.shared\\walletexceptions\\walletdataexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|solutionrelative:fenixcoin.shared\\walletexceptions\\walletdataexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.shared\\cryptoexceptions\\cryptodataexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|solutionrelative:fenixcoin.shared\\cryptoexceptions\\cryptodataexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.shared\\userexceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|solutionrelative:fenixcoin.shared\\userexceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.shared\\userexceptions\\userdataexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|solutionrelative:fenixcoin.shared\\userexceptions\\userdataexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\walletdto\\walletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\walletdto\\walletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\walletdto\\updatewalletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\walletdto\\updatewalletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dataaccess\\migrations\\20241007174635_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|solutionrelative:fenixcoin.dataaccess\\migrations\\20241007174635_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dataaccess\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|solutionrelative:fenixcoin.dataaccess\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dataaccess\\implementation\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|solutionrelative:fenixcoin.dataaccess\\implementation\\walletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dataaccess\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|solutionrelative:fenixcoin.dataaccess\\repositories\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6140EF-B8EB-4FB5-B121-D08F557826D0}|FenixCoin.App\\FenixCoin.App.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A6140EF-B8EB-4FB5-B121-D08F557826D0}|FenixCoin.App\\FenixCoin.App.csproj|solutionrelative:fenixcoin.app\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A6B86FE-F400-4D60-919A-69BB117CF045}|FenixCoin.Domain\\FenixCoin.Domain.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A6B86FE-F400-4D60-919A-69BB117CF045}|FenixCoin.Domain\\FenixCoin.Domain.csproj|solutionrelative:fenixcoin.domain\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A6B86FE-F400-4D60-919A-69BB117CF045}|FenixCoin.Domain\\FenixCoin.Domain.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.domain\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A6B86FE-F400-4D60-919A-69BB117CF045}|FenixCoin.Domain\\FenixCoin.Domain.csproj|solutionrelative:fenixcoin.domain\\models\\wallet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\userdto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dataaccess\\context\\fenixdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|solutionrelative:fenixcoin.dataaccess\\context\\fenixdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\userdto\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\userdto\\registeruserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\PsyMaki\\Desktop\\FenixCoinV1\\FenixCoin\\FenixCoin.DataAccess\\Migrations\\20241007123134_Init2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\cryptodto\\cryptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\cryptodto\\cryptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FCF6B1-1DD4-4EF3-8F2E-0E2809DCBF27}|FenixCoin.Helpers\\FenixCoin.Helpers.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.helpers\\configuration\\configurationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FCF6B1-1DD4-4EF3-8F2E-0E2809DCBF27}|FenixCoin.Helpers\\FenixCoin.Helpers.csproj|solutionrelative:fenixcoin.helpers\\configuration\\configurationhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6140EF-B8EB-4FB5-B121-D08F557826D0}|FenixCoin.App\\FenixCoin.App.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A6140EF-B8EB-4FB5-B121-D08F557826D0}|FenixCoin.App\\FenixCoin.App.csproj|solutionrelative:fenixcoin.app\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A6140EF-B8EB-4FB5-B121-D08F557826D0}|FenixCoin.App\\FenixCoin.App.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.app\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6A6140EF-B8EB-4FB5-B121-D08F557826D0}|FenixCoin.App\\FenixCoin.App.csproj|solutionrelative:fenixcoin.app\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.shared\\configuration\\fenixappsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D0DE187-D371-42FE-85C7-A804B011D01A}|FenixCoin.Shared\\FenixCoin.Shared.csproj|solutionrelative:fenixcoin.shared\\configuration\\fenixappsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FCF6B1-1DD4-4EF3-8F2E-0E2809DCBF27}|FenixCoin.Helpers\\FenixCoin.Helpers.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.helpers\\dependencyinjection\\dependencyinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FCF6B1-1DD4-4EF3-8F2E-0E2809DCBF27}|FenixCoin.Helpers\\FenixCoin.Helpers.csproj|solutionrelative:fenixcoin.helpers\\dependencyinjection\\dependencyinjector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FCF6B1-1DD4-4EF3-8F2E-0E2809DCBF27}|FenixCoin.Helpers\\FenixCoin.Helpers.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.helpers\\fenixcoin.helpers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77FCF6B1-1DD4-4EF3-8F2E-0E2809DCBF27}|FenixCoin.Helpers\\FenixCoin.Helpers.csproj|solutionrelative:fenixcoin.helpers\\fenixcoin.helpers.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dataaccess\\implementation\\cryptowalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|solutionrelative:fenixcoin.dataaccess\\implementation\\cryptowalletrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dataaccess\\implementation\\traderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|solutionrelative:fenixcoin.dataaccess\\implementation\\traderepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dataaccess\\implementation\\cryptorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|solutionrelative:fenixcoin.dataaccess\\implementation\\cryptorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dataaccess\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4CA4FC2D-F686-48CC-8B5A-FAF9ABB2A3BD}|FenixCoin.DataAccess\\FenixCoin.DataAccess.csproj|solutionrelative:fenixcoin.dataaccess\\repositories\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\userdto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\userdto\\loginuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\cryptodto\\updatecryptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\cryptodto\\updatecryptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\tradedto\\tradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\tradedto\\tradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\tradedto\\addtradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\tradedto\\addtradedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\cryptodto\\addcryptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\cryptodto\\addcryptodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\cryptowalletdto\\updatecryptowalletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\cryptowalletdto\\updatecryptowalletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\cryptowalletdto\\cryptowalletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\cryptowalletdto\\cryptowalletdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.dto\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C40E325-BEBB-4E4B-BE78-DCA2D797035C}|FenixCoin.Dto\\FenixCoin.Dto.csproj|solutionrelative:fenixcoin.dto\\userdto\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A6B86FE-F400-4D60-919A-69BB117CF045}|FenixCoin.Domain\\FenixCoin.Domain.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.domain\\enums\\tradetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A6B86FE-F400-4D60-919A-69BB117CF045}|FenixCoin.Domain\\FenixCoin.Domain.csproj|solutionrelative:fenixcoin.domain\\enums\\tradetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A6B86FE-F400-4D60-919A-69BB117CF045}|FenixCoin.Domain\\FenixCoin.Domain.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A6B86FE-F400-4D60-919A-69BB117CF045}|FenixCoin.Domain\\FenixCoin.Domain.csproj|solutionrelative:fenixcoin.domain\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A6B86FE-F400-4D60-919A-69BB117CF045}|FenixCoin.Domain\\FenixCoin.Domain.csproj|c:\\users\\psymaki\\desktop\\fenixcoin.development\\sp2024-cp01-csi-1-phase2\\fenixcoin.domain\\enums\\traderole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A6B86FE-F400-4D60-919A-69BB117CF045}|FenixCoin.Domain\\FenixCoin.Domain.csproj|solutionrelative:fenixcoin.domain\\enums\\traderole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Implementation\\UserService.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Services\\Implementation\\UserService.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Implementation\\UserService.cs",
+              "RelativeToolTip": "FenixCoin.Services\\Implementation\\UserService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAwBwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:22:59.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "FenixMapper.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Mappers\\FenixMapper.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Mappers\\FenixMapper.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Mappers\\FenixMapper.cs",
+              "RelativeToolTip": "FenixCoin.Mappers\\FenixMapper.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA2wB8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:40:40.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ICryptoService.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Interfaces\\ICryptoService.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Services\\Interfaces\\ICryptoService.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Interfaces\\ICryptoService.cs",
+              "RelativeToolTip": "FenixCoin.Services\\Interfaces\\ICryptoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T03:25:57.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "FenixCoin.Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:22:45.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITradeService.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Interfaces\\ITradeService.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Services\\Interfaces\\ITradeService.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Interfaces\\ITradeService.cs",
+              "RelativeToolTip": "FenixCoin.Services\\Interfaces\\ITradeService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T02:44:23.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IWalletService.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Interfaces\\IWalletService.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Services\\Interfaces\\IWalletService.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Interfaces\\IWalletService.cs",
+              "RelativeToolTip": "FenixCoin.Services\\Interfaces\\IWalletService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T23:25:38.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TradeService.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Implementation\\TradeService.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Services\\Implementation\\TradeService.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Implementation\\TradeService.cs",
+              "RelativeToolTip": "FenixCoin.Services\\Implementation\\TradeService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:56:43.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WalletService.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Implementation\\WalletService.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Services\\Implementation\\WalletService.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Implementation\\WalletService.cs",
+              "RelativeToolTip": "FenixCoin.Services\\Implementation\\WalletService.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:55:31.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CryptoNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\CryptoExceptions\\CryptoNotFoundException.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Shared\\CryptoExceptions\\CryptoNotFoundException.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\CryptoExceptions\\CryptoNotFoundException.cs",
+              "RelativeToolTip": "FenixCoin.Shared\\CryptoExceptions\\CryptoNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:11:29.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CryptoService.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Implementation\\CryptoService.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Services\\Implementation\\CryptoService.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Services\\Implementation\\CryptoService.cs",
+              "RelativeToolTip": "FenixCoin.Services\\Implementation\\CryptoService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABwAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:30:38.611Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CryptoController.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.App\\Controllers\\CryptoController.cs",
+              "RelativeDocumentMoniker": "FenixCoin.App\\Controllers\\CryptoController.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.App\\Controllers\\CryptoController.cs",
+              "RelativeToolTip": "FenixCoin.App\\Controllers\\CryptoController.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAYwIUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:26:27.092Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "WalletDataException.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\WalletExceptions\\WalletDataException.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Shared\\WalletExceptions\\WalletDataException.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\WalletExceptions\\WalletDataException.cs",
+              "RelativeToolTip": "FenixCoin.Shared\\WalletExceptions\\WalletDataException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:12:36.136Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WalletNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\WalletExceptions\\WalletNotFoundException.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Shared\\WalletExceptions\\WalletNotFoundException.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\WalletExceptions\\WalletNotFoundException.cs",
+              "RelativeToolTip": "FenixCoin.Shared\\WalletExceptions\\WalletNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:13:03.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TradeNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\TradeExceptions\\TradeNotFoundException.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Shared\\TradeExceptions\\TradeNotFoundException.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\TradeExceptions\\TradeNotFoundException.cs",
+              "RelativeToolTip": "FenixCoin.Shared\\TradeExceptions\\TradeNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:14:21.896Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OurResponse.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\OurResponse.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Shared\\OurResponse.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\OurResponse.cs",
+              "RelativeToolTip": "FenixCoin.Shared\\OurResponse.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:18:18.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CryptoDataException.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\CryptoExceptions\\CryptoDataException.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Shared\\CryptoExceptions\\CryptoDataException.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\CryptoExceptions\\CryptoDataException.cs",
+              "RelativeToolTip": "FenixCoin.Shared\\CryptoExceptions\\CryptoDataException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:11:05.351Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\UserExceptions\\UserNotFoundException.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Shared\\UserExceptions\\UserNotFoundException.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\UserExceptions\\UserNotFoundException.cs",
+              "RelativeToolTip": "FenixCoin.Shared\\UserExceptions\\UserNotFoundException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:10:17.095Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserDataException.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\UserExceptions\\UserDataException.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Shared\\UserExceptions\\UserDataException.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\UserExceptions\\UserDataException.cs",
+              "RelativeToolTip": "FenixCoin.Shared\\UserExceptions\\UserDataException.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T18:09:26.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20241007174635_Init.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Migrations\\20241007174635_Init.cs",
+              "RelativeDocumentMoniker": "FenixCoin.DataAccess\\Migrations\\20241007174635_Init.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Migrations\\20241007174635_Init.cs",
+              "RelativeToolTip": "FenixCoin.DataAccess\\Migrations\\20241007174635_Init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T17:46:35.687Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Repositories\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "FenixCoin.DataAccess\\Repositories\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Repositories\\IUserRepository.cs",
+              "RelativeToolTip": "FenixCoin.DataAccess\\Repositories\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:53:33.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Implementation\\UserRepository.cs",
+              "RelativeDocumentMoniker": "FenixCoin.DataAccess\\Implementation\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Implementation\\UserRepository.cs",
+              "RelativeToolTip": "FenixCoin.DataAccess\\Implementation\\UserRepository.cs",
+              "ViewState": "AQIAABcAAAAAAAAAAAAwwCgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T13:54:49.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "WalletDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\WalletDTO\\WalletDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\WalletDTO\\WalletDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\WalletDTO\\WalletDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\WalletDTO\\WalletDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T00:54:01.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UpdateWalletDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\WalletDTO\\UpdateWalletDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\WalletDTO\\UpdateWalletDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\WalletDTO\\UpdateWalletDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\WalletDTO\\UpdateWalletDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T01:11:49.917Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.App\\Program.cs",
+              "RelativeDocumentMoniker": "FenixCoin.App\\Program.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.App\\Program.cs",
+              "RelativeToolTip": "FenixCoin.App\\Program.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAnwA0AAAByAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:41:30.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "WalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Implementation\\WalletRepository.cs",
+              "RelativeDocumentMoniker": "FenixCoin.DataAccess\\Implementation\\WalletRepository.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Implementation\\WalletRepository.cs",
+              "RelativeToolTip": "FenixCoin.DataAccess\\Implementation\\WalletRepository.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwCcAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:58:19.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "20241007123134_Init2.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoinV1\\FenixCoin\\FenixCoin.DataAccess\\Migrations\\20241007123134_Init2.cs",
+              "RelativeDocumentMoniker": "..\\..\\FenixCoinV1\\FenixCoin\\FenixCoin.DataAccess\\Migrations\\20241007123134_Init2.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoinV1\\FenixCoin\\FenixCoin.DataAccess\\Migrations\\20241007123134_Init2.cs",
+              "RelativeToolTip": "..\\..\\FenixCoinV1\\FenixCoin\\FenixCoin.DataAccess\\Migrations\\20241007123134_Init2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T12:31:35.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "CryptoDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\CryptoDTO\\CryptoDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\CryptoDTO\\CryptoDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\CryptoDTO\\CryptoDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\CryptoDTO\\CryptoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T23:39:07.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Wallet.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Domain\\Models\\Wallet.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Domain\\Models\\Wallet.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Domain\\Models\\Wallet.cs",
+              "RelativeToolTip": "FenixCoin.Domain\\Models\\Wallet.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:45:18.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\UserDTO\\UserDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\UserDTO\\UserDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\UserDTO\\UserDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\UserDTO\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:22:04.278Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Domain\\Models\\User.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Domain\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Domain\\Models\\User.cs",
+              "RelativeToolTip": "FenixCoin.Domain\\Models\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T03:40:12.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "RegisterUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\UserDTO\\RegisterUserDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\UserDTO\\RegisterUserDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\UserDTO\\RegisterUserDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\UserDTO\\RegisterUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:21:43.039Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "FenixDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Context\\FenixDbContext.cs",
+              "RelativeDocumentMoniker": "FenixCoin.DataAccess\\Context\\FenixDbContext.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Context\\FenixDbContext.cs",
+              "RelativeToolTip": "FenixCoin.DataAccess\\Context\\FenixDbContext.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAuwEEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:55:16.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ConfigurationHelper.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Helpers\\Configuration\\ConfigurationHelper.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Helpers\\Configuration\\ConfigurationHelper.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Helpers\\Configuration\\ConfigurationHelper.cs",
+              "RelativeToolTip": "FenixCoin.Helpers\\Configuration\\ConfigurationHelper.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwC8AAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:49:18.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.App\\appsettings.json",
+              "RelativeDocumentMoniker": "FenixCoin.App\\appsettings.json",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.App\\appsettings.json",
+              "RelativeToolTip": "FenixCoin.App\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-05T15:02:07.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.App\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "FenixCoin.App\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.App\\Properties\\launchSettings.json",
+              "RelativeToolTip": "FenixCoin.App\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-07T03:28:00.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "FenixAppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\Configuration\\FenixAppSettings.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Shared\\Configuration\\FenixAppSettings.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Shared\\Configuration\\FenixAppSettings.cs",
+              "RelativeToolTip": "FenixCoin.Shared\\Configuration\\FenixAppSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T03:29:33.245Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FenixCoin.Helpers.csproj",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Helpers\\FenixCoin.Helpers.csproj",
+              "RelativeDocumentMoniker": "FenixCoin.Helpers\\FenixCoin.Helpers.csproj",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Helpers\\FenixCoin.Helpers.csproj",
+              "RelativeToolTip": "FenixCoin.Helpers\\FenixCoin.Helpers.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-07T02:41:50.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DependencyInjector.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Helpers\\DependencyInjection\\DependencyInjector.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Helpers\\DependencyInjection\\DependencyInjector.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Helpers\\DependencyInjection\\DependencyInjector.cs",
+              "RelativeToolTip": "FenixCoin.Helpers\\DependencyInjection\\DependencyInjector.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T02:42:15.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "CryptoWalletRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Implementation\\CryptoWalletRepository.cs",
+              "RelativeDocumentMoniker": "FenixCoin.DataAccess\\Implementation\\CryptoWalletRepository.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Implementation\\CryptoWalletRepository.cs",
+              "RelativeToolTip": "FenixCoin.DataAccess\\Implementation\\CryptoWalletRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAACDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T23:30:38.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "CryptoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Implementation\\CryptoRepository.cs",
+              "RelativeDocumentMoniker": "FenixCoin.DataAccess\\Implementation\\CryptoRepository.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Implementation\\CryptoRepository.cs",
+              "RelativeToolTip": "FenixCoin.DataAccess\\Implementation\\CryptoRepository.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAgwCIAAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:57:40.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TradeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Implementation\\TradeRepository.cs",
+              "RelativeDocumentMoniker": "FenixCoin.DataAccess\\Implementation\\TradeRepository.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Implementation\\TradeRepository.cs",
+              "RelativeToolTip": "FenixCoin.DataAccess\\Implementation\\TradeRepository.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAQwCcAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T14:58:56.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "TradeDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\TradeDTO\\TradeDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\TradeDTO\\TradeDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\TradeDTO\\TradeDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\TradeDTO\\TradeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T01:40:54.729Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UpdateCryptoDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\CryptoDTO\\UpdateCryptoDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\CryptoDTO\\UpdateCryptoDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\CryptoDTO\\UpdateCryptoDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\CryptoDTO\\UpdateCryptoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T00:51:10.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Repositories\\IRepository.cs",
+              "RelativeDocumentMoniker": "FenixCoin.DataAccess\\Repositories\\IRepository.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.DataAccess\\Repositories\\IRepository.cs",
+              "RelativeToolTip": "FenixCoin.DataAccess\\Repositories\\IRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:16:23.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "LoginUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\UserDTO\\LoginUserDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\UserDTO\\LoginUserDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\UserDTO\\LoginUserDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\UserDTO\\LoginUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:21:54.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "AddTradeDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\TradeDTO\\AddTradeDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\TradeDTO\\AddTradeDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\TradeDTO\\AddTradeDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\TradeDTO\\AddTradeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T01:45:02.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "AddCryptoDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\CryptoDTO\\AddCryptoDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\CryptoDTO\\AddCryptoDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\CryptoDTO\\AddCryptoDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\CryptoDTO\\AddCryptoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T23:47:26.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateCryptoWalletDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\CryptoWalletDTO\\UpdateCryptoWalletDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\CryptoWalletDTO\\UpdateCryptoWalletDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\CryptoWalletDTO\\UpdateCryptoWalletDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\CryptoWalletDTO\\UpdateCryptoWalletDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T01:38:14.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "CryptoWalletDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\CryptoWalletDTO\\CryptoWalletDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\CryptoWalletDTO\\CryptoWalletDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\CryptoWalletDTO\\CryptoWalletDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\CryptoWalletDTO\\CryptoWalletDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T01:19:34.725Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\UserDTO\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Dto\\UserDTO\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Dto\\UserDTO\\UpdateUserDto.cs",
+              "RelativeToolTip": "FenixCoin.Dto\\UserDTO\\UpdateUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T18:52:25.628Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Domain\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Domain\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Domain\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "FenixCoin.Domain\\Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:10:30.435Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "TradeRole.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Domain\\Enums\\TradeRole.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Domain\\Enums\\TradeRole.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Domain\\Enums\\TradeRole.cs",
+              "RelativeToolTip": "FenixCoin.Domain\\Enums\\TradeRole.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:09:31.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "TradeType.cs",
+              "DocumentMoniker": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Domain\\Enums\\TradeType.cs",
+              "RelativeDocumentMoniker": "FenixCoin.Domain\\Enums\\TradeType.cs",
+              "ToolTip": "C:\\Users\\PsyMaki\\Desktop\\FenixCoin.Development\\sp2024-cp01-csi-1-phase2\\FenixCoin.Domain\\Enums\\TradeType.cs",
+              "RelativeToolTip": "FenixCoin.Domain\\Enums\\TradeType.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-05T15:06:28.333Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
