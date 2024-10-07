@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="XAct.Core.PCL" Version="0.0.5014" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\FenixCoin.DataAccess\FenixCoin.DataAccess.csproj" />
+    <ProjectReference Include="..\FenixCoin.Dto\FenixCoin.Dto.csproj" />
+    <ProjectReference Include="..\FenixCoin.Mappers\FenixCoin.Mappers.csproj" />
+    <ProjectReference Include="..\FenixCoin.Shared\FenixCoin.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

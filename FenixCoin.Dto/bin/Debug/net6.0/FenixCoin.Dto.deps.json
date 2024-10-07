@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "FenixCoin.Dto/1.0.0": {
+        "dependencies": {
+          "FenixCoin.Domain": "1.0.0"
+        },
+        "runtime": {
+          "FenixCoin.Dto.dll": {}
+        }
+      },
+      "FenixCoin.Domain/1.0.0": {
+        "runtime": {
+          "FenixCoin.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FenixCoin.Dto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FenixCoin.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
